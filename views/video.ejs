@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/video.css" type="text/css">
+    <title>Video Streaming</title>
+  </head>
+  <body>
+    <h1>Video Streaming <%= title %></h1>
+    <div class="video">
+      <video  width="75%" height="auto" autoplay controls>
+        <source src="<%= videoSource %>" type="video/mp4" />
+      </video>
+    </div>
+  </body>
+</html>
